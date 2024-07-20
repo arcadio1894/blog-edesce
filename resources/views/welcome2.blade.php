@@ -15,7 +15,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>{{ config('app.name', 'Sermeind') }}</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('template/assets/cine-favicon.ico') }}" />
+    <link rel="icon" type="image/x-icon" href="{{ asset('template/assets/tec.ico') }}" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
