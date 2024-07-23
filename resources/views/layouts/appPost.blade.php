@@ -21,7 +21,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>@yield('title')</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('template/assets/cine-favicon.ico') }}" />
+    <link rel="icon" type="image/x-icon" href="{{ asset('template/assets/tec.ico') }}" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -35,7 +35,7 @@
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
     <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="{{ url('/') }}">Cinemania90</a>
+        <a class="navbar-brand" href="{{ url('/') }}">Blog Tech</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fas fa-bars"></i>
@@ -156,9 +156,9 @@
     <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-md-10 col-lg-8 col-xl-7">
-                <ul class="list-inline text-center">
-                <li class="list-inline-item">
-                        <a href="https://www.facebook.com/profile.php?id=100065245252319" target="_blank">
+            <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/EDESCE" target="_blank">
                                     <span class="fa-stack fa-lg">
                                         <i class="fas fa-circle fa-stack-2x"></i>
                                         <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
@@ -166,7 +166,7 @@
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://www.youtube.com/@cinemania9054" target="_blank">
+                        <a href="https://www.youtube.com/@edesceeirl9656" target="_blank">
                                     <span class="fa-stack fa-lg">
                                         <i class="fas fa-circle fa-stack-2x"></i>
                                         <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
@@ -174,29 +174,13 @@
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://www.tiktok.com/@cinemania90" target="_blank">
+                        <a href="https://www.linkedin.com/in/remso-ivan-rojas-guevara-a5382912a/" target="_blank">
                                     <span class="fa-stack fa-lg">
                                         <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-tiktok fa-stack-1x fa-inverse"></i>
+                                        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
                                     </span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.instagram.com/cinemania90_" target="_blank">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-                                    </span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://dlive.tv/Cinemania90" target="_blank">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitch fa-stack-1x fa-inverse"></i>
-                                    </span>
-                        </a>
-                    </li>
+                    </li>                   
                 </ul>
                 <div class="small text-center text-muted fst-italic">Copyright &copy; <a href="https://www.edesce.com/">EDESCE</a> 2024</div>
             </div>
