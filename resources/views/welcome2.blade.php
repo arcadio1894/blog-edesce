@@ -2,18 +2,35 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y77JJJ1HM7"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F8CPDCJ9WX"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'G-Y77JJJ1HM7');
+        gtag('config', 'G-F8CPDCJ9WX');
     </script>
+
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Descubre cómo elegir el ERP adecuado para tu empresa en Perú y cuánto cuesta implementarlo. Comparación de costos de ERP y SAP.">
+    <meta name="keywords" content="elegir ERP, costo implementar ERP, costo SAP, ERP en Perú, soluciones ERP, software empresarial en Perú">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="EDESCE">
+    <meta name="language" content="es-ES">
+    <meta name="canonical" content="https://blog.edesce.com/post/cual-erp-elegir-cuanto-cuesta-implementar-un-erp-cuanto-cuesta-sap">
+
+    <meta property="og:title" content="¿Cuál ERP elegir? ¿Cuánto cuesta implementar un ERP en Perú? ¿Cuánto cuesta SAP?">
+    <meta property="og:description" content="Descubre cómo elegir el ERP adecuado para tu empresa en Perú y cuánto cuesta implementarlo. Comparación de costos de ERP y SAP.">
+    <meta property="og:image" content="https://blog.edesce.com/images/postImages/2_15.jpg">
+    <meta property="og:url" content="https://blog.edesce.com/post/cual-erp-elegir-cuanto-cuesta-implementar-un-erp-cuanto-cuesta-sap">
+
+    <meta name="twitter:title" content="¿Cuál ERP elegir? ¿Cuánto cuesta implementar un ERP en Perú? ¿Cuánto cuesta SAP?">
+    <meta name="twitter:description" content="Descubre cómo elegir el ERP adecuado para tu empresa en Perú y cuánto cuesta implementarlo. Comparación de costos de ERP y SAP.">
+    <meta name="twitter:image" content="https://blog.edesce.com/images/postImages/2_15.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
     <title>{{ config('app.name', 'Sermeind') }}</title>
     <link rel="icon" type="image/x-icon" href="{{ asset('template/assets/cine-favicon.ico') }}" />
     <!-- Font Awesome icons (free version)-->
